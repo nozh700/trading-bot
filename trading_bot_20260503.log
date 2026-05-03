@@ -1,0 +1,37 @@
+2026-05-03 13:40:59,330 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 13:41:35,644 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 13:41:35,647 | INFO     | orders | Order request | symbol=BTCUSDT side=BUYtype=MARKET qty=0.001 price=None
+2026-05-03 13:41:36,578 | ERROR    | orders | Order failed:400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&timestamp=1777795895647&signature=ab0f86d45494d44adad3af0adbeb667ff1911b68d88434c943d2d7fcd91dacb1
+2026-05-03 13:41:53,157 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 13:41:53,160 | INFO     | orders | Order request | symbol=BTCUSDT side=SELLtype=MARKET qty=0.001 price=None
+2026-05-03 13:41:54,223 | ERROR    | orders | Order failed:400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=SELL&type=MARKET&timestamp=1777795913161&signature=f8d9f70bd15449ab5b2a2351fd3b8a34f90635f31def704a7049c3278512e7a4
+2026-05-03 13:42:09,760 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 13:42:09,763 | INFO     | orders | Order request | symbol=BTCUSDT side=BUYtype=LIMIT qty=0.001 price=80000
+2026-05-03 13:42:11,000 | ERROR    | orders | Order failed:400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&price=80000.0&timeInForce=GTC&timestamp=1777795929780&signature=bff827e9af9296d40b6ee28c064782a7e98a133cdca5eec3380a5565766be894
+2026-05-03 13:42:29,929 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 13:42:29,933 | INFO     | orders | Order request | symbol=BTCUSDT side=SELLtype=LIMIT qty=0.001 price=90000
+2026-05-03 13:42:30,854 | ERROR    | orders | Order failed:400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=SELL&type=LIMIT&price=90000.0&timeInForce=GTC&timestamp=1777795949934&signature=4863f41ab979d569e6ec36121ab26f3aba54e9acb914b014c58ed2ebe392fa4b
+2026-05-03 13:43:19,355 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 13:43:19,359 | INFO     | orders | Order request | symbol=BTCUSDT side=BUYtype=MARKET qty=0.001 price=None
+2026-05-03 13:43:20,363 | ERROR    | orders | Order failed:400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&timestamp=1777795999361&signature=f37db6c46893819f3f73145ab6623a830bf3073e7d1d024b57ee1b1fcd63eaa8
+2026-05-03 15:56:44,991 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 15:56:44,995 | INFO     | orders | Order request | symbol=BTCUSDT side=BUYtype=MARKET qty=0.001 price=None
+2026-05-03 15:56:46,040 | ERROR    | orders | Order failed:400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1777804004995&signature=03620e1ca49844d94b0ef4f2ab9e531da750e84b7cd854863f6cc6cecaaa426a
+2026-05-03 15:59:48,940 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 15:59:48,943 | INFO     | orders | Order request | symbol=BTCUSDT side=BUYtype=MARKET qty=0.001 price=None
+2026-05-03 15:59:49,991 | ERROR    | orders | Order failed:400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1777804187944&signature=69f81493afaa81c3a6c5fd336b5d0bffd83a40295330f7a0c27edc6fd197416b
+2026-05-03 16:01:55,013 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 16:01:55,017 | INFO     | orders | Order request | symbol=BTCUSDT side=BUYtype=MARKET qty=0.001 price=None
+2026-05-03 16:01:56,032 | INFO     | orders | Order success | orderId=13102726679status=NEW
+2026-05-03 16:02:53,809 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 16:02:53,811 | INFO     | orders | Order request | symbol=BTCUSDT side=BUYtype=MARKET qty=0.001 price=None
+2026-05-03 16:02:54,926 | INFO     | orders | Order success | orderId=13102728701status=NEW
+2026-05-03 16:03:10,789 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 16:03:10,795 | INFO     | orders | Order request | symbol=BTCUSDT side=SELLtype=MARKET qty=0.001 price=None
+2026-05-03 16:03:11,764 | INFO     | orders | Order success | orderId=13102729293status=NEW
+2026-05-03 16:03:22,854 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 16:03:22,858 | INFO     | orders | Order request | symbol=BTCUSDT side=BUYtype=LIMIT qty=0.001 price=80000
+2026-05-03 16:03:23,907 | INFO     | orders | Order success | orderId=13102729682status=NEW
+2026-05-03 16:03:44,571 | INFO     | binance_client | BinanceClient initialized
+2026-05-03 16:03:44,576 | INFO     | orders | Order request | symbol=BTCUSDT side=SELLtype=LIMIT qty=0.001 price=90000
+2026-05-03 16:03:45,682 | INFO     | orders | Order success | orderId=13102730408status=NEW

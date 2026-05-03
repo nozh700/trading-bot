@@ -1,0 +1,3 @@
+2026-05-02 14:04:29 | INFO     | binance_client | BinanceClient initialized - Demo Trading
+2026-05-02 14:05:43 | INFO     | binance_client | BinanceClient initialized - Demo Trading
+2026-05-02 14:21:13 | DEBUG    | binance_client | GET https://demo-fapi.binance.com/fapi/v1/ping | params={}
